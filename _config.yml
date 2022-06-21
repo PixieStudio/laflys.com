@@ -23,7 +23,7 @@ timezone: Europe/Paris
 
 title: Laflys                          # the main title
 
-tagline: Web Dev - Jeux de rôle - Boardgame - Origami   # it will display as the sub-title
+tagline: Jeux de rôle - Boardgame - Origami - Web Dev - Ruby   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Partage de mes contributions et réflexions dans l'univers des jeux de rôle, jeux de société, boardgame, et les boîtes origami
@@ -199,3 +199,19 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
